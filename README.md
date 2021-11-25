@@ -1,11 +1,11 @@
 # ✨Activity Scheduler✨
  
 
-+ [![N|Solid](https://img.shields.io/github/issues/khawla-k-banydomi/cloudcomputingrepo)](https://img.shields.io/github/issues/khawla-k-banydomi/cloudcomputingrepo)
-[![N|Solid](https://img.shields.io/github/forks/khawla-k-banydomi/cloudcomputingrepo)]()
-[![N|Solid](https://img.shields.io/github/stars/khawla-k-banydomi/cloudcomputingrepo)]()
-[![N|Solid](https://img.shields.io/github/license/khawla-k-banydomi/cloudcomputingrepo)]()
-[![N|Solid](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fkhawla-k-banydomi%2Fcloudcomputingrepo%2Fblob%2Fmain%2FREADME.md)]()
++ [![N|Solid](https://img.shields.io/github/issues/khawla-k-banydomi/ActivityScheduler)](https://img.shields.io/github/issues/khawla-k-banydomi/cloudcomputingrepo)
+[![N|Solid](https://img.shields.io/github/forks/khawla-k-banydomi/ActivityScheduler)]()
+[![N|Solid](https://img.shields.io/github/stars/khawla-k-banydomi/ActivityScheduler)]()
+[![N|Solid](https://img.shields.io/github/license/khawla-k-banydomi/ActivityScheduler)]()
+[![N|Solid](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fkhawla-k-banydomi%2FActivityScheduler%2Fblob%2Fmain%2FREADME.md)]()
   
 
 > - There are several user problems that computer science deals with and indeed solves them in an efficient way using a computer and computing equipment.
@@ -61,7 +61,7 @@ Beside that I have to create a class that will be responsible for all of the fol
 # Create Logo
 From this [website](https://hatchful.shopify.com/) I create my personal Logo: 
 
-<img src="https://github.com/khawla-k-banydomi/cloudcomputingrepo/blob/main/doc/logo.png" width="500" height="200">
+<img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/logo.png" width="500" height="200">
 
 # Git and GitHub Setup
 ![](https://myoctocat.com/assets/images/base-octocat.svg)
@@ -69,7 +69,7 @@ From this [website](https://hatchful.shopify.com/) I create my personal Logo:
 
 
 
-+ 🕸️[Full Configuration for Git & GitHub](https://github.com/khawla-k-banydomi/cloudcomputingrepo/blob/main/doc/Configuration.md)
++ 🕸️[Full Configuration for Git & GitHub](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md)
 
 ### Further Resources
 + 🕸️[Architecture & business Logic](https://avitsadok.medium.com/design-a-great-architecture-for-your-app-614bfdc22e0a)
