@@ -13,45 +13,48 @@ Daily or weekly scheduling can be considered as one of the most important issue.
 
 
 # The Problem
-Time limit, fully-crowded day and overload can be considered as the main responsible for encountering managing problems and overlaps; facing this kind of problems enforce the person to find suitable solution;Among the year, many departments plan a range of events and activities, such as conferences, webinars, parties, social or industrial events and more. These activities can occur in fast succession, easily overwhelming the team if an organization mechanism is not efficient.
-As a result, an activity scheduler can be a useful tool for increasing exposure. as a computer scientist we solve any problem by using triple-power( computer logic, computer science technology and computing services.
+During the day,week and the year, people plan a range of events and activities, such as conferences, webinars, parties, social or industrial events and more. These activities cannot be scheduled using papers or handwritten notes; as well; Time limit, fully-crowded day and overload can be considered as the main responsible for encountering managing problems and overlaps between activities and works that the person have to do .As a result, an activity scheduler would be a useful tool for scheduling events.
 
-# Why an activity scheduler?
-Previously, activity scheduler could have been cumbersome, with limited visibility across teams and departments; Fortunately, technology now with the help of computer science mechanisms and computing services allows Activities to be shared across teams, increasing the value of activity scheduler to the entire community; this App is important because it provides the user with the best chance to prepare himself well and exhibit a wide-range angles the user could use to manage his time and his team  but developing this App requires some effort and upkeep to be a helpful tool for any department; an activity scheduler is important for the family,school,industrial department,airports,companies and so forth. It might be also personal application so that it is used to remind the person of his important activities.
+# Solution
 
-### There are several benefits that can be gained from this app:
-- It can show you all of the activity on any given day in real time, so that Click on any date within the month to view the activities for that day.
-- Simply the user can Navigate to any month with a single click.
-- View the entire week with just one click
-- Notify Me feature! You can set up automatic email reminders for any activity, as well as email notifications for any changes to your schedule.
-- The user can get the latest complete schedules for any activity.
-
-# How will I build this app
-
-This application will mainly be created based on what is called a recommender system; user data is collected and automatically analyzed by recommendation systems, which then generate customized recommendations for the user. These systems rely on both implicit and explicit data, such as browsing history, as well as user preferences and ratings.
-
-There are two methods for generating recommendations: content-based filtering and collaborative filtering.
+ActivityScheduler is a cloud-based application that consists of a personal agenda in which work events/activities (tasks to do, appointments, events, meetings, reminders, etc...) can be included; it will also be possible to manage non-working days (weekends,festivals or holidays), so that business events cannot be included during these days.
 
 
-An activity-recommendation-scheduler system generates and displays user-tailored activity recommendations. Based on the user's current location, the system may recommend activities. The system may recommend activities based on a user's social network, such as if the user's friends attend an event, or an event organized by or affiliated with a person, place, or organization in which the user has an interest. The system may recommend events based on invitations received from others or if the user's contacts are on the event's guest list. Based on the user's previous behavior, such as doing similar activities, the system may recommend activities; it also includes and notifies the user with some key activities relating to machine learning and information retrieval.
+Once the application is launched, the entities that comprise the system will be revealed, which are as follows:
 
-The system may recommend activities based on a user's subscription to certain types of categories. The system may automatically add an activity to the user's calendar, add the user's name to a guest list, and share the activity with the user's contacts after recommending it.
+### An Activity
 
-It will also be developed based on the concept of Calendar-Aware Proactive Email Recommender System (CAPERS), which proactively selects and displays potentially useful emails to users based on their upcoming calendar events.
 
-I have to include subroutines inside API for the following functionalities:
+An agenda will consist of a list of events/activities, each of which will have a title, a description, a start date, an end date, the person associated with the event, and the date of remembrance.
+Among its features, we highlight the following:
 
-+ Checking to see if the activity can be scheduled based on availability and if the dates are correct
-+ When an activity is confirmed, invitations and notification emails are sent out.
-+ Schedule an email or notification reminder for a few minutes before the event.
-+ This necessitates hooking into the mutation in order to insert an activity.
 
-Beside that I have to create a class that will be responsible for all of the following:
++ create/compose an event.
++ Remove an already-included event.
++ update the event data. 
++ Cancel reminder . 
++ Between two dates, return the personal agenda.
++ Repeat an event, indicating the frequency with which it is repeated and the end date of the repetition; if a copy of the event already exists for that person at that time, that copy of the event will not be inserted at that time.
++ Restore a previously deleted event.
++ The date of remembrance is used to remember an event.
 
-+ dealing with external changes/modification of the data related to the calendar.
-+ Keeping track of the visible calendars
-+ Controlling the default calendar
-+ extra supported methods for determining whether an activity is in the past, if it spans multiple days, and so on.
+
+
+## Vacation Days (Not-working days)
+
+Non-working days, such as weekends, holidays, or vacations, will not be created as personal events; therefore, before inserting or modifying an event, it will be verified that this day is workable.
+Those non-working days will be composed of the user associated with them, the days prior to recall, and sets of non-working days (such as specific days of the week, a set of continuous days, or a specific day).
+As a result, the following are the functionalities of this entity:
+
+Add days to a list of non-working days.
+Make a calendar of holidays for a user.
+Add days to a holiday list.
+Return the number of non-working days in a given year. 
+
+
++ Remember vacation day by using reminder.
++ Cancel reminder.
++ modify the reminder.
 
 
 
@@ -73,6 +76,8 @@ From this [website](https://hatchful.shopify.com/) I create my personal Logo:
 
 ### Further Resources
 + 🕸️[Architecture & business Logic](https://avitsadok.medium.com/design-a-great-architecture-for-your-app-614bfdc22e0a)
+
+
 
 
 
