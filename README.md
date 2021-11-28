@@ -29,7 +29,7 @@ An agenda will consist of a list of events/activities, each of which will have a
 Among its features, we highlight the following:
 
 
-+ create/compose an event.
++ Create/compose an event.
 + Remove an already-included event.
 + update the event data. 
 + Cancel reminder . 
