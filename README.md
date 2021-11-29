@@ -13,7 +13,7 @@ Daily or weekly scheduling can be considered as one of the most important issue.
 
 
 # The Problem
-During the day,week and the year, people plan a range of events and activities, such as conferences, webinars, parties, social or industrial events and more. These activities cannot be scheduled using papers or handwritten notes; as well; Time limit, fully-crowded day and overload can be considered as the main responsible for encountering managing problems and overlaps between activities and works that the person have to do .As a result, an activity scheduler would be a useful tool for scheduling events.
+During the day, week and the year, people plan a range of events and activities, such as conferences, webinars, parties, social or industrial events and more. These activities cannot be scheduled using papers or handwritten notes; as well; Time limit, fully-crowded day and overload can be considered as the main responsible for encountering managing problems and overlaps between activities and works that the person have to do .As a result, an activity scheduler would be a useful tool for scheduling events.
 
 # Solution
 
