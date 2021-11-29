@@ -72,6 +72,8 @@ From this [website](https://hatchful.shopify.com/) I create my personal Logo:
 
 + 🕸️[Full Configuration for Git & GitHub](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md)
 
++ By describing the  problem in the readme file, adding .gitignore file,adding license and setting up git and Github, [Milestone-0](https://github.com/khawla-k-banydomi/ActivityScheduler/milestones) is completed
+
 ### Further Resources
 + 🕸️[Architecture & business Logic](https://avitsadok.medium.com/design-a-great-architecture-for-your-app-614bfdc22e0a)
 
