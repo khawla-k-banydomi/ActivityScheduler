@@ -46,12 +46,10 @@ Non-working days, such as weekends, holidays, or vacations, will not be created 
 Those non-working days will be composed of the user associated with them, the days prior to recall, and sets of non-working days (such as specific days of the week, a set of continuous days, or a specific day).
 As a result, the following are the functionalities of this entity:
 
-Add days to a list of non-working days.
-Make a calendar of holidays for a user.
-Add days to a holiday list.
-Return the number of non-working days in a given year. 
-
-
++ Add days to a list of non-working days.
++ Make a calendar of holidays for a user.
++ Add days to a holiday list.
++ Return the number of non-working days in a given year. 
 + Remember vacation day by using reminder.
 + Cancel reminder.
 + modify the reminder.
