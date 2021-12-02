@@ -12,6 +12,11 @@ Some issues already closed and the others still open [Here](https://github.com/k
 # User Stories 📚
 I have created several user stories [US1](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4), [US2](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5),[US3](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/6),[US4](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/7),[US5](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/8),[US6](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/9),[US7](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/10),[US8](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/11),[US9](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/12),[US10](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/13),[US11](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/14),[US12](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/15),[US13](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/16),[US14](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/17),[US15](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/18),[US16](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/19) 
 
+# Main classes and methods :
+The main [Classes](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/models) as well as [CRUD operations](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/Controllers)
+
+It explains the interface of the class (functions with arguments that will have the appropriate type and number, but without any business logic or functionality).
+
 
 # Cloud Deployment ☁️
 #### *Using cloud provide us with several advantages such as the following:* 📦
