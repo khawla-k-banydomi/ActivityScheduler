@@ -4,6 +4,12 @@
 - To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Description.md). 🗓️
 - To see How I configure my Github account Please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md). 🔧
 
+# Importance of the application:
+This application was created to allow me to keep track of my personal work agenda online, rather than having to keep track of it on paper or in a notebook, in order to write down tasks to be completed or meetings at work to which they must contribute; thus, this application will be very useful in the future.
+
+
+
+
 # Milestones ⏲️
 Different milestones have been established [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/milestones).
 # Issues ❗
@@ -28,8 +34,15 @@ It shows the interface of the class (functions with arguments that will have the
 - Efficiency in operations. Use the cloud's inherent automation to improve operational efficiency and reduce human effort.
 - A competitive advantage. Reduce the time to market for new features by leveraging infrastructure as code and development, security, and operations.
 - Empowered users. Increase productivity by providing cloud-based self-service options for users, such as portals, executive and operational dashboards.
- 
- 
+
+
+#### Entities to be deployed:
+- Events 
+
+#### Client:
+- myself(It is developed to manage my personal timeline)
+
+
  
  # Application Architecture 🏗️
 ### The first and most important step in the software development is to select the Architecture; in this context I choose Layered architecture.
