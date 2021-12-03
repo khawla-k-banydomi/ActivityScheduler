@@ -35,7 +35,7 @@ It explains the interface of the class (functions with arguments that will have 
  # Application Architecture 🏗️
 ### The first and most important step in the software development is to select the Architecture; in this context I choose Layered architecture.
 
-Layered architecture is implemented strictly following MVC approach. Moreover business logic is 
+Layered architecture is implemented strictly following MVC approach. Moreover, business logic is 
 completely separated from controllers while implementing to make sure that code is reusable, 
 easy to refactor and a better way to structure project overall.
 
