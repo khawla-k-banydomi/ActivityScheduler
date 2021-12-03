@@ -66,7 +66,7 @@ Components within a specific layer only deal with logic specific to that layer.
 ### This Pattern is Ideal for:    🎬
 
 - Line-of-business apps that perform more than just CRUD operations.
-- New applications that must be developed quickly
+- New applications that must be developed quickly.
 - Teams comprised of inexperienced developers who are unfamiliar with other architectures, but whose applications necessitate strict maintainability and testability standards
 
  
