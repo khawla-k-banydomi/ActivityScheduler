@@ -16,7 +16,7 @@ I have created several user stories
 # Main classes and methods :
 The main [Classes](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/models) as well as [CRUD operations](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/Controllers)
 
-It explains the interface of the class (functions with arguments that will have the appropriate type and number, but without any business logic or functionality).
+It shows the interface of the class (functions with arguments that will have the appropriate type and number, but without any business logic or functionality).
 
 
 # Cloud Deployment ☁️
