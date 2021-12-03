@@ -10,7 +10,7 @@
 
 # Milestones ⏲️
 Different milestones have been established [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/milestones).
-# Issues ❗
+# Issues: ❗
 There are several issues I have already created. [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/issues?q=is%3Aissue+is%3Aclosed).
 # User Stories : 📚 (historia de usuario) 
 I have created several user stories 
