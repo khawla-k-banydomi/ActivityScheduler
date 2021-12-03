@@ -35,7 +35,8 @@ It shows the interface of the class (functions with arguments that will have the
 
 
 #### Entities to be deployed:
-- Events 
+- Events .
+- A set of Holidays.
 
 #### Client:
 - myself(It is developed to manage my personal timeline)
