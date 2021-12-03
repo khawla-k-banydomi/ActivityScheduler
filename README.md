@@ -72,17 +72,3 @@ Components within a specific layer only deal with logic specific to that layer.
  
  
  
-
-# Programming language 📜
-JavaScript has traditionally been and continues to be the web's primary programming language. But it's so much more nowadays. JavaScript's power increased dramatically with the introduction of server-side JavaScript and JavaScript support in major cloud platforms. Building, maintaining, optimizing, and deploying end-to-end JavaScript applications is possible with JavaScript in the cloud.
-Cloud platforms provide us with the tools, elasticity, and scalability we need to build high-performing applications without having to manage physical infrastructure. 
-Some developers consider Javascript as the best language which is compatible with the cloud deployment.
-NodeJS can be considered as a cross-platform and opensource JS run-time environment that allows the javascript to be run on the server-side.
-It's used to create a backend service because of its non-blocking nature to build event driven server.
-
-
-
-# Framework 🖼️
-Express.js, also known as Express, is at the top of the list of the best Node.js frameworks. It takes a minimalist approach and appears to be a classic and straightforward framework for coding architecture.
-
-Its fast, robust, and asynchronous architecture works well with Node. Expressjs is used as a middleware in nodejs to design and build API’s.
