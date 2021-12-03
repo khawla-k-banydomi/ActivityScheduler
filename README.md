@@ -27,7 +27,7 @@ It shows the interface of the class (functions with arguments that will have the
 - Scalability and agility. To meet peak business demands without provisioning for excess capacity, use auto-scaling and scalability.
 - Geographic coverage. users can access applications from any location and on any device.
 - Efficiency in operations. Use the cloud's inherent automation to improve operational efficiency and reduce human effort.
-- A competitive advantage. Reduce the time to market for new features by leveraging infrastructure as code and development, security, and operations (DevSecOps).
+- A competitive advantage. Reduce the time to market for new features by leveraging infrastructure as code and development, security, and operations.
 - Empowered users. Increase productivity by providing cloud-based self-service options for users, such as portals, executive and operational dashboards.
  
  
