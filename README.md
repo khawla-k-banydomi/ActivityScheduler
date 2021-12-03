@@ -51,7 +51,7 @@ Components within a specific layer only deal with logic specific to that layer.
 - Separate "roles" are simple to assign.
 - It is simple to update and improve layers separately.
 
-### This Pattern is Ideal for    🎬
+### This Pattern is Ideal for:    🎬
 
 - Line-of-business apps that perform more than just CRUD operations
 - New applications that must be developed quickly
