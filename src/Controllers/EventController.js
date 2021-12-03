@@ -18,6 +18,13 @@ const deleteEvent  {
         
 }
 
+const repeatEvent  {
+   try{
+        const id 
+      }       
+        
+}
+
 const getAllEvents {
     try {
         const events 
