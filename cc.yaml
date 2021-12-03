@@ -1,0 +1,17 @@
+lenguaje: node.js
+
+fichero_tareas: TaskManager.js
+
+test:
+  - test/Events_test.js
+ 
+entidad:
+  - src/models/Event.js
+  - src/models/Schedule.js
+  - src/models/Timeline.js
+  - src/models/User.js
+  - src/Controllers/EventController.js
+
+test-docker-compose: docker-compose.debug.yml
+
+make: test
