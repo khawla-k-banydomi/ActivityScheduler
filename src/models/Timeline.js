@@ -1,5 +1,4 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+
 
 var timelineSchema = new Schema({
     name: {
@@ -10,7 +9,7 @@ var timelineSchema = new Schema({
         [
             {
                 'sid': {
-                    type: mongoose.Types.ObjectId,
+                    type: ObjectId,
                     ref: 'Schedule'
                 }
             }]
@@ -23,4 +22,3 @@ var timelineSchema = new Schema({
     },
 });
 
-module.exports = mongoose.model('Timeline', timelineSchema);
