@@ -1,35 +1,25 @@
 
-
-var eventSchema = new Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    description: {
-        type: String,
-    },
-    startTime: {
-        type: Date,
-        default: Date.now()
-    },
-    endTime: {
-        type: Date,
-        default: Date.now()
-    },
-    reminderTime: {
-        type: Date,
-        default: Date.now()
-    },
-    type: {
-        type: String,
-        enum: ['urgent', 'not urgent', 'normal']
-    },
-    repeat: {
-        type: Number,
-        default: 0
-    },
-    restore:{
-        type: Boolean
-    }
-});
-
+const getAllEvents {
+    
+}
+const getOneEvent {
+   
+}
+const createEvent {
+}
+const modifyEvent {
+}
+const deleteEvent{
+}
+const resetEvent{
+}
+const cancelReminder {
+}
+module.exports ={
+    getAllEvents,
+    getOneEvent,
+    createEvent,
+    modifyEvent,
+    deleteEvent,
+    resetEvent
+}
