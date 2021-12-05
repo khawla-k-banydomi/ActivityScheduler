@@ -1,46 +1,35 @@
-const createEvent {
-    try {
-        const eventObj 
-        const event
-        }
-}
-const modifyEvent {
-    try {
-        const id 
-        const updatedObj 
-        const event  
-        }
-}
-const deleteEvent  {
-   try{
-        const id 
-      }       
-        
-}
 
-const repeatEvent  {
-   try{
-        const id 
-      }       
-        
-}
 
-const getAllEvents {
-    try {
-        const events 
-        }
-}
-const getOneEvent {
-    try {
-        const id 
-        const event     
-        }
-}
+var eventSchema = new Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    description: {
+        type: String,
+    },
+    startTime: {
+        type: Date,
+        default: Date.now()
+    },
+    endTime: {
+        type: Date,
+        default: Date.now()
+    },
+    reminderTime: {
+        type: Date,
+        default: Date.now()
+    },
+    type: {
+        type: String,
+        enum: ['urgent', 'not urgent', 'normal']
+    },
+    repeat: {
+        type: Number,
+        default: 0
+    },
+    restore:{
+        type: Boolean
+    }
+});
 
-const resetEvent {
-    try {
-        const id 
-        const updatedObj 
-        const event 
-        }
-}
