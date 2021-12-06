@@ -1,4 +1,6 @@
-The following is the whole user-stories realted to the application:(Activity-Scheduler):
+The Following is the whole user-stories realted to the application (Activity-Scheduler):
+For more about the user stories you have to read carefully the following [Guide](https://gist.github.com/seanh/8a5b7b36d5c4fdfcfbd3b42506296968).
+
 
 - [Create an event](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4) 
 - [Delete an event](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5)
@@ -17,3 +19,4 @@ The following is the whole user-stories realted to the application:(Activity-Sch
 - [Cancel hollidays reminder](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/18)
 - [Create empty classes related to the functionality of the application ](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/19) 
 - [Alert about the non-working days in advance](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/21)
+
