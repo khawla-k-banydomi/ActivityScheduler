@@ -1,3 +1,5 @@
+The following is the whole user-stories realted to the application:(Activity-Scheduler):
+
 - [Create an event](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4) 
 - [Delete an event](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5)
 - [Change an event’s Title](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/6)
