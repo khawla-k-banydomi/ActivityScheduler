@@ -8,35 +8,30 @@
 
 
 # TaskManager
-For task management, I've gone back and forth between npm, grunt, and gulp. All three tools are well-known in the Javascript community, and any of them could be useful for the purposes of this project.
+- For task management, I've gone back and forth between npm, grunt, and gulp. All three tools are well-known in the Javascript community, and any of them could be useful for the purposes of this project.
 
 We are already using npm as a dependency manager in our project. Since we already use it for that, I'd like to have a separate task management tool (which leaves us between grunt and gulp).
 Grunt and Gulp are two tools that do the same thing: they automate tasks. Although the performance benchmarks that I've been observing place gulp above, it is not a factor that we will consider.Where we see a significant difference is in the notation of these tools: whereas grunt is more focused on configuration files (JSON type), gulp is focused on code (Javascript), which in my opinion makes it easier to use.
 comprehend and apply.
 
-I ultimately chose Gulp because of what I previously mentioned; However there are several alternatives such as Grunt
-
+I ultimately chose Gulp because of what I previously mentioned; However there are several alternatives such as Grunt.
 There are several differences between Grunt and Gulp to see more information about this you can visit this [source](https://www.keycdn.com/blog/gulp-vs-grunt).
-
-
 You can look at [gulp.js](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/gulpfile.js), There are several tasks inside this file.
+*One is to ensure that Gulp working properly (Gulp Tasks are working) which can be considered as test task.
+*The other one for the server which is (start and restart the server).
 
-One is to ensure that Gulp working properly (Gulp Tasks are working) which can be considered as test task.
-
-the other one for the server which is (start and restart the server).
-
-Assertion Library
+# Assertion Library
 
 
-There are numerous assertion libraries for Javascript, and the language itself has an assertion library (assert).
+- There are numerous assertion libraries for Javascript, and the language itself has an assertion library (assert).
 There are two approaches: [BDD](https://www.agilealliance.org/glossary/bdd/) and [TDD](https://www.agilealliance.org/glossary/tdd/). and there are several differences between the two mentioned approaches [inside this link](https://www.pluralsight.com/blog/software-development/tdd-vs-bdd).
 Because we are using domain-driven design in conjunction with user stories, and the client is guiding the project's development, I believe the BDD approach is more appropriate.
 BDD-like assertion libraries are intended to be close to natural language. In this way, they are easier to understand and adapt to the user's needs. The library that I have finally chosen is [Chai.js](https://www.chaijs.com/) , which has expressions of the type expect (). To.be.a () or expect (). To.equal () . we can see the different styles of Chai's assertions [inside this blog](https://www.chaijs.com/guide/styles/).
 
 
-Framework for testing
+# Framework for testing
 
 
-Since we've chosen BDD, some benchmarks that align with this philosophy are Mocha, Cucumber, and Jest.
+- Since we've chosen BDD, some benchmarks that align with this philosophy are Mocha, Cucumber, and Jest.
 Any of them can be used in conjunction with Chai, but the Chai + Mocha combination appears to be quite popular in the community ([inside this link](https://www.chaijs.com/guide/installation/),it is obvious that Chai recommends Mocha, but keep in mind that it is compatible with anyone), so we chose that combination. 
 
