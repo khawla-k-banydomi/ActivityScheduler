@@ -2,7 +2,7 @@ lenguaje: node.js
 node_js:
   - 7
 
-fichero_tareas: npm
+fichero_tareas: gulpfile.js
 antes_de_instalar: 
   - npm i -g npm@7.24.2
 instalar:
@@ -21,3 +21,4 @@ script:
   start_server: npm run start
   start_nodemon_server: npm run dev
   run_test: npm run test
+  run_test_by_gulp: gulp test
