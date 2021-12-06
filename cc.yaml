@@ -1,7 +1,12 @@
 lenguaje: node.js
+node_js:
+  - 7
 
-fichero_tareas: TaskManager.js
-
+fichero_tareas: npm
+antes_de_instalar: 
+  - npm i -g npm@7.24.2
+instalar:
+  - npm install
 test:
   - test/Events_test.js
  
@@ -12,4 +17,7 @@ entidad:
   - src/models/User.js
   - src/models/Holiday.js
 
-make: test
+script:
+  start_server: npm run start
+  start_nodemon_server: npm run dev
+  run_test: npm run test
