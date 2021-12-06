@@ -1,75 +1,42 @@
 
 
 # Main Repository For The Subject
-- To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Description.md). 🗓️
 - To see How I configure my Github account Please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md). 🔧
-- This application was created to allow me to keep track of my personal work agenda online, rather than having to keep track of it on paper or in a notebook, in order to write down tasks to be completed or meetings at work to which they must contribute; thus, this application will be very useful in the future.
+- To see the First Milestone (hito-0) and To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Description.md). 🗓️
+- To see the Second Milestone (hito-1) and To take a tour around milestones and issues regarding the application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS1_Specifying%20and%20planning%20the%20project.md).
+- To see the complete description of the user stories please Go [Here].
 
 
+# TaskManager
+For task management, I've gone back and forth between npm, grunt, and gulp. All three tools are well-known in the Javascript community, and any of them could be useful for the purposes of this project.
 
-# Milestones ⏲️
-Different milestones have been established [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/milestones).
-# Issues: ❗
-There are several issues I have already created. [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/issues?q=is%3Aissue+is%3Aclosed).
-# User Stories : 📚 (historia de usuario) 
-I have created several user stories 
-[US1](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4), [US2](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5),[US3](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/6),[US4](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/7),[US5](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/8),[US6](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/9),[US7](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/10),[US8](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/11),[US9](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/12),[US10](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/13),[US11](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/14),[US12](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/15),[US13](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/16),[US14](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/17),[US15](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/18),[US16](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/19), [US17](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/21) 
-It is important to notice that user story shouldn't be closed untill it is well-implemented in the context of the application functionality.
-[Here](https://gist.github.com/seanh/8a5b7b36d5c4fdfcfbd3b42506296968) there are several important things regarding the uer-stories.
+We are already using npm as a dependency manager in our project. Since we already use it for that, I'd like to have a separate task management tool (which leaves us between grunt and gulp).
+Grunt and Gulp are two tools that do the same thing: they automate tasks. Although the performance benchmarks that I've been observing place gulp above, it is not a factor that we will consider.Where we see a significant difference is in the notation of these tools: whereas grunt is more focused on configuration files (JSON type), gulp is focused on code (Javascript), which in my opinion makes it easier to use.
+comprehend and apply.
 
+I ultimately chose Gulp because of what I previously mentioned; However there are several alternatives such as Grunt
 
-# Main classes and methods :
-The main [Classes](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/models) as well as [CRUD operations](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/Controllers)
-
-It shows the interface of the class (functions with arguments that will have the appropriate type and number, but without any business logic or functionality).
+There are several differences between Grunt and Gulp to see more information about this you can visit this [source](https://www.keycdn.com/blog/gulp-vs-grunt).
 
 
-# Cloud Deployment ☁️
-#### *Using cloud provide us with several advantages such as the following:* 📦
-- Faster. Builds that deploy code, databases, and application releases, including resource provisioning, can be automated.
-- Cost savings. Control costs with consumption-based pricing and eliminate capital-intensive on-premises environments.
-- Growth platform Utilize the global infrastructure provided by cloud service providers to seamlessly expand the business into new geographies.
-- Scalability and agility. To meet peak business demands without provisioning for excess capacity, use auto-scaling and scalability.
-- Geographic coverage. users can access applications from any location and on any device.
-- Efficiency in operations. Use the cloud's inherent automation to improve operational efficiency and reduce human effort.
-- A competitive advantage. Reduce the time to market for new features by leveraging infrastructure as code and development, security, and operations.
-- Empowered users. Increase productivity by providing cloud-based self-service options for users, such as portals, executive and operational dashboards.
+You can look at [gulp.js](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/gulpfile.js), There are several tasks inside this file.
+
+One is to ensure that Gulp working properly (Gulp Tasks are working) which can be considered as test task.
+
+the other one for the server which is (start and restart the server).
+
+Assertion Library
 
 
-#### Entities to be deployed:
-- Events .
-- A set of Holidays.
-
-#### Client:
-- myself(It is developed to manage my personal timeline)
+There are numerous assertion libraries for Javascript, and the language itself has an assertion library (assert).
+There are two approaches: [BDD](https://www.agilealliance.org/glossary/bdd/) and [TDD](https://www.agilealliance.org/glossary/tdd/). and there are several differences between the two mentioned approaches [inside this link](https://www.pluralsight.com/blog/software-development/tdd-vs-bdd).
+Because we are using domain-driven design in conjunction with user stories, and the client is guiding the project's development, I believe the BDD approach is more appropriate.
+BDD-like assertion libraries are intended to be close to natural language. In this way, they are easier to understand and adapt to the user's needs. The library that I have finally chosen is [Chai.js](https://www.chaijs.com/) , which has expressions of the type expect (). To.be.a () or expect (). To.equal () . we can see the different styles of Chai's assertions [inside this blog](https://www.chaijs.com/guide/styles/).
 
 
- 
- # Application Architecture 🏗️
-### The first and most important step in the software development is to select the Architecture; in this context I choose Layered architecture.
-
-Layered architecture is implemented strictly following MVC approach. Moreover, business logic is 
-completely separated from controllers while implementing to make sure that code is reusable, 
-easy to refactor and a better way to structure project overall.
-
-The separation of concerns among components is a powerful feature of the layered architecture pattern.
-Components within a specific layer only deal with logic specific to that layer.
+Framework for testing
 
 
-#### I choose it since it has the following *advantages*:
-- High degree of testability Because components are associated with specific layers of the architecture,other layers can be mocked or stubbed, making this pattern relatively simple to test.
-- This pattern is so well known and is not overly complex to implement, it is a natural choice for most business-application development.
-- Additionally, because most companies develop applications by separating skill sets by layers, this pattern becomes a natural choice for most business-application development.
-- Maintainable
-- Separate "roles" are simple to assign.
-- It is simple to update and improve layers separately.
+Since we've chosen BDD, some benchmarks that align with this philosophy are Mocha, Cucumber, and Jest.
+Any of them can be used in conjunction with Chai, but the Chai + Mocha combination appears to be quite popular in the community ([inside this link](https://www.chaijs.com/guide/installation/),it is obvious that Chai recommends Mocha, but keep in mind that it is compatible with anyone), so we chose that combination. 
 
-### This Pattern is Ideal for:    🎬
-
-- Line-of-business apps that perform more than just CRUD operations.
-- New applications that must be developed quickly.
-- Teams comprised of inexperienced developers who are unfamiliar with other architectures, but whose applications necessitate strict maintainability and testability standards
-
- 
- 
- 
