@@ -1,4 +1,4 @@
-The Following is the whole user-stories realted to the application (Activity-Scheduler):
+The Following is the whole user-stories related to the application (Activity-Scheduler):
 For more about the user stories you have to read carefully the following [Guide](https://gist.github.com/seanh/8a5b7b36d5c4fdfcfbd3b42506296968).
 
 
