@@ -5,6 +5,7 @@
 + [![N|Solid](https://img.shields.io/github/issues/khawla-k-banydomi/ActivityScheduler)](https://img.shields.io/github/issues/khawla-k-banydomi/ActivityScheduler)
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 [![N|Solid](https://img.shields.io/github/stars/khawla-k-banydomi/ActivityScheduler)]()
+[![N|Solid](https://img.shields.io/github/languages/khawla-k-banydomi/ActivityScheduler)]()
 [![N|Solid](https://img.shields.io/github/license/khawla-k-banydomi/ActivityScheduler)]()
 [![N|Solid](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fkhawla-k-banydomi%2FActivityScheduler%2Fblob%2Fmain%2FREADME.md)]()
   
