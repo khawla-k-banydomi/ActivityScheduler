@@ -3,6 +3,7 @@
  
 
 + [![N|Solid](https://img.shields.io/github/issues/khawla-k-banydomi/ActivityScheduler)](https://img.shields.io/github/issues/khawla-k-banydomi/ActivityScheduler)
+[![N|Solid](https://img.shields.io/github/language/khawla-k-banydomi/ActivityScheduler)]()
 [![N|Solid](https://img.shields.io/github/forks/khawla-k-banydomi/ActivityScheduler)]()
 [![N|Solid](https://img.shields.io/github/stars/khawla-k-banydomi/ActivityScheduler)]()
 [![N|Solid](https://img.shields.io/github/license/khawla-k-banydomi/ActivityScheduler)]()
