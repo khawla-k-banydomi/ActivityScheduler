@@ -21,7 +21,6 @@ gulp.task('nodemon', function () {
       console.log('restart server');
     })
 });
-
 // run tests task
 gulp.task('test', function () {
   return gulp.src(['test/*.js'])
