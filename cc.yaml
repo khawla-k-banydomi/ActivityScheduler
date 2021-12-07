@@ -1,7 +1,6 @@
 lenguaje: node.js
 node_js:
   - 7
-
 fichero_tareas: gulpfile.js
 antes_de_instalar: 
   - npm i -g npm@7.24.2
