@@ -13,8 +13,18 @@ Different milestones have been established [Here](https://github.com/khawla-k-ba
 # Issues: ❗
 There are several issues I have already created. [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/issues?q=is%3Aissue+is%3Aclosed).
 # User Stories : 📚 (historia de usuario) 
-I have created several user stories 
-[US1](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4), [US2](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5),[US3](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/6),[US4](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/7),[US5](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/8),[US6](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/9),[US7](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/10),[US8](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/11),[US9](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/12),[US10](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/13),[US11](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/14),[US12](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/15),[US13](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/16),[US14](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/17),[US15](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/18),[US16](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/19), [US17](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/21) 
+- I have created several user stories which are the following:<br>
+- [US1](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4)<br>
+- [US2](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5)<br>
+- [US3](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/6)<br>
+- [US4](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/7)<br>
+- [US5](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/8)<br>
+- [US6](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/9)<br>
+- [US7](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/10)<br>
+- [US8](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/11)<br>
+- [US9](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/12)<br>
+- [US10](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/13).
+
 It is important to notice that user story shouldn't be closed untill it is well-implemented in the context of the application functionality.
 [Here](https://gist.github.com/seanh/8a5b7b36d5c4fdfcfbd3b42506296968) there are several important things regarding the uer-stories.
 
