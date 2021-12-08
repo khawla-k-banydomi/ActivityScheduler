@@ -12,7 +12,6 @@
 - Testing-Framework and Assertion-Library, and configure the [cc.yaml](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/cc.yaml) file correctly.
 - In this case I’ll be using Mocha which allows asynchronous testing using any assertion library, Chai as well is a Javascript Assertion Library; It performs functions and methods to test the code.
 > How to run the test:<br>
-> gulp --tasks <br>
 >  gult test 
 
 
@@ -46,10 +45,10 @@ Any of them can be used in conjunction with Chai, but the Chai + Mocha combinati
 ### To run the test we can write down the follwoing command:
 ### gulp test
 - There are several tasks in the [eventsTest.js file](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/test/eventsTest.js) that could be tested which are the following:
-- Testing get event 
-- Testing post event
-- Testing modify event
-- Testing delete event
+- Testing GET event 
+- Testing POST event
+- Testing modify(PATCH) event
+- Testing DELETE event
 
 - The following screen-shot shows the whole result after run :gulp test
 
