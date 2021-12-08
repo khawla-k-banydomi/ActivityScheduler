@@ -5,14 +5,15 @@
 - To see full descriptive document for the architecture and tools that I already and will use during the development check this [Document](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/doc/Architecture.md) 📔
 - To see the Second Milestone (hito-1) and To take a tour around milestones and issues regarding the application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS1_Specifying%20and%20planning%20the%20project.md). 🗒️
 - To see the complete description of the user stories please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/User-Stories.md). 📓
+---
+### This is the Document for the HTML Second-milestone which is the [test](https://jj.github.io/CC/documentos/proyecto/2021/2.Tests) milestone.
+- To sum up I have to add the following features:
 
-- This is the Document for the second-milestone which is the [test](https://jj.github.io/CC/documentos/proyecto/2021/2.Tests) milestone; To sum up I have to add 
-Testing-Framework and Assertion-Library, and configure the [cc.yaml](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/cc.yaml) file correctly.
-
+- Testing-Framework and Assertion-Library, and configure the [cc.yaml](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/cc.yaml) file correctly.
 - In this case I’ll be using Mocha which allows asynchronous testing using any assertion library, Chai as well is a Javascript Assertion Library; It performs functions and methods to test the code.
-
-How to run the test:
-- npm run test
+> How to run the test:<br>
+> gulp --tasks <br>
+>  gult test 
 
 
 # TaskManager
