@@ -50,6 +50,8 @@ Any of them can be used in conjunction with Chai, but the Chai + Mocha combinati
 - Testing post event
 - Testing modify event
 - Testing delete event
-- 
+
+- The following screen-shot shows the whole result after run :gulp test
+
 <img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/doc/complete-test-MS2.png" width="1000" height="700">
 
