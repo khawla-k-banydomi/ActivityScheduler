@@ -34,13 +34,13 @@ Components within a specific layer only deal with logic specific to that layer.
     <td>NodeJs</td>
     <td>It's used to create a backend service and choose node js due to its non-blocking nature to build event driven server</td>
  </tr>
+    <tr>
+    <td>ExpressJS</td>
+    <td>Expressjs is used as a middleware in nodejs to design and build API’s.</td>
+ </tr>
  <tr>
     <td>Mongoose</td>
     <td>Mongodb is a database while mongoose is an ODM( Object Data Modeling) which manages relationships between data.</td>
- </tr>
-   <tr>
-    <td>ExpressJS</td>
-    <td>Expressjs is used as a middleware in nodejs to design and build API’s.</td>
  </tr>
     <tr>
     <td>Chai/ Mocha</td>
