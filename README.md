@@ -40,3 +40,6 @@ Because we are using domain-driven design in conjunction with user stories, and 
 - Since we've chosen BDD(Behaviour Driven Development), some benchmarks that align with this philosophy are Mocha, Cucumber, and Jest.
 Any of them can be used in conjunction with Chai, but the Chai + Mocha combination appears to be quite popular in the community ([inside this link](https://www.chaijs.com/guide/installation/),it is obvious that Chai recommends Mocha, but keep in mind that it is compatible with anyone), so we chose that combination. 
 
+
+<img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/doc/Complete-test-MS2.png" width="500" height="200">
+
