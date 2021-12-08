@@ -51,7 +51,7 @@ Components within a specific layer only deal with logic specific to that layer.
     <td>Docker is used for Containerization, it packages an application and its dependencies together in a container. It allows our application to run smoothly irrespective of the changes in environment.</td>
  </tr>
  <tr>
-    <td>Github-Actions</td>
+    <td>Github-Actions </td>
     <td>For Continuous Integration, it allows us to create workflows, to compile, deploy and test our code.</td>
  </tr>
 </table>
