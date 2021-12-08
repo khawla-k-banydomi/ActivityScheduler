@@ -40,6 +40,16 @@ Because we are using domain-driven design in conjunction with user stories, and 
 - Since we've chosen BDD(Behaviour Driven Development), some benchmarks that align with this philosophy are Mocha, Cucumber, and Jest.
 Any of them can be used in conjunction with Chai, but the Chai + Mocha combination appears to be quite popular in the community ([inside this link](https://www.chaijs.com/guide/installation/),it is obvious that Chai recommends Mocha, but keep in mind that it is compatible with anyone), so we chose that combination. 
 
+<br>
 
+---
+### To run the test we can write down the follwoing command:
+### gulp test
+- There are several tasks in the [eventsTest.js file](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/test/eventsTest.js) that could be tested which are the following:
+- Testing get event 
+- Testing post event
+- Testing modify event
+- Testing delete event
+- 
 <img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/doc/complete-test-MS2.png" width="1000" height="700">
 
