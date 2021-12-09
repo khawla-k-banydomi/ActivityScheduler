@@ -14,7 +14,7 @@ entidad:
   - src/models/Schedule.js
   - src/models/Timeline.js
   - src/models/User.js
-  -
+  
   
 
 script:
