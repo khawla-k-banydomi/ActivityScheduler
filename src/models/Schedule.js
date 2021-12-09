@@ -1,4 +1,5 @@
-
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
 var scheduleSchema = new Schema({
     name: {
@@ -14,3 +15,5 @@ var scheduleSchema = new Schema({
         default: 0
     },
 });
+
+module.exports = mongoose.model('Schedule', scheduleSchema);
