@@ -24,7 +24,7 @@ You can look at [gulp.js](https://github.com/khawla-k-banydomi/ActivityScheduler
 *One is to ensure that Gulp working properly (Gulp Tasks are working) which can be considered as test task.
 *The other one for the server which is (start and restart the server).
 
-# Assertion Library
+# Assertion Library:
 
 - There are numerous assertion libraries for Javascript, and the language itself has an assertion library (assert).
 There are two approaches: [BDD](https://www.agilealliance.org/glossary/bdd/) and [TDD](https://www.agilealliance.org/glossary/tdd/). and there are several differences between the two mentioned approaches [inside this link](https://www.pluralsight.com/blog/software-development/tdd-vs-bdd).
@@ -52,7 +52,6 @@ Any of them can be used in conjunction with Chai, but the Chai + Mocha combinati
 - The following screen-shot shows the whole result after run :gulp test
 
 <img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/complete-test-MS2.png" width="1000" height="700">
-
 
 ---
 # [Test-milestone:Completed](https://github.com/khawla-k-banydomi/ActivityScheduler/milestone/5)
