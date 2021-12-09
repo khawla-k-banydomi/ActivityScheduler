@@ -14,6 +14,7 @@
 > How to run the test:<br>
 >  gulp test 
 
+
 # TaskManager
 - For task management, I've gone back and forth between npm, grunt, and gulp. All three tools are well-known in the Javascript community, and any of them could be useful for the purposes of this project.We are already using npm as a dependency manager in our project. Since we already use it for that, I'd like to have a separate task management tool (which leaves us between grunt and gulp).Grunt and Gulp are two tools that do the same thing: they automate tasks. Although the performance benchmarks that I've been observing place gulp above, it is not a factor that we will consider.Where we see a significant difference is in the notation of these tools: whereas grunt is more focused on configuration files (JSON type), gulp is focused on code (Javascript), which in my opinion makes it easier to use.
 comprehend and apply.
