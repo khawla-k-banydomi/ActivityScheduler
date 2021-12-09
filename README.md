@@ -55,10 +55,7 @@ Any of them can be used in conjunction with Chai, but the Chai + Mocha combinati
 
 
 ---
-
-# Addition: Test using [postman-collection.json](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/postman-collection.json)
-- I already add several events that can be managed (Create/Read/Update/Delete) as json file ..
-- It is simple and straight-forward ,by using vscode it is possible to add thunder-client extension then import the collection and run-all.
+# [Test-milestone:Completed](https://github.com/khawla-k-banydomi/ActivityScheduler/milestone/5)
 
 
 
