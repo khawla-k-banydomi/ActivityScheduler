@@ -10,7 +10,6 @@ gulp.task('task', function () {
   return console.log('Gulp Tasks are working!!');
 });
 
-
 // server task
 gulp.task('nodemon', function () {
   nodemon({
