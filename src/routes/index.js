@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.send('Server running on Docker!'
+  res.send('Server running'
   )
 });
 

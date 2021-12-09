@@ -5,15 +5,14 @@
 - To see full descriptive document for the architecture and tools that I already and will use during the development check this [Document](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/doc/Architecture.md) 📔
 - To see the Second Milestone (hito-1) and To take a tour around milestones and issues regarding the application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS1_Specifying%20and%20planning%20the%20project.md). 🗒️
 - To see the complete description of the user stories please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/User-Stories.md). 📓
+- There are several unwanted issues that will be colsed and taged as removed.
 ---
-### This is the Document for the HTML Second-milestone which is the [test](https://jj.github.io/CC/documentos/proyecto/2021/2.Tests) milestone.
-- To sum up I have to add the following features:
-
+### This is the Document for the Second-milestone which is the [test](https://jj.github.io/CC/documentos/proyecto/2021/2.Tests) milestone.
+- To sum up I have to add the following features:<br>
 - Testing-Framework and Assertion-Library, and configure the [cc.yaml](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/cc.yaml) file correctly.
 - In this case I’ll be using Mocha which allows asynchronous testing using any assertion library, Chai as well is a Javascript Assertion Library; It performs functions and methods to test the code.
 > How to run the test:<br>
->  gult test 
-
+>  gulp test 
 
 # TaskManager
 - For task management, I've gone back and forth between npm, grunt, and gulp. All three tools are well-known in the Javascript community, and any of them could be useful for the purposes of this project.We are already using npm as a dependency manager in our project. Since we already use it for that, I'd like to have a separate task management tool (which leaves us between grunt and gulp).Grunt and Gulp are two tools that do the same thing: they automate tasks. Although the performance benchmarks that I've been observing place gulp above, it is not a factor that we will consider.Where we see a significant difference is in the notation of these tools: whereas grunt is more focused on configuration files (JSON type), gulp is focused on code (Javascript), which in my opinion makes it easier to use.
@@ -42,7 +41,7 @@ Any of them can be used in conjunction with Chai, but the Chai + Mocha combinati
 <br>
 
 ---
-### To run the test we can write down the follwoing command:
+### To run the test we can write down the following command:
 ### gulp test
 - There are several tasks in the [eventsTest.js file](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/test/eventsTest.js) that could be tested which are the following:
 - Testing GET event 
@@ -53,4 +52,13 @@ Any of them can be used in conjunction with Chai, but the Chai + Mocha combinati
 - The following screen-shot shows the whole result after run :gulp test
 
 <img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/doc/complete-test-MS2.png" width="1000" height="700">
+
+
+---
+
+# Addition: Test using [postman-collection.json](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/test/postman-collection.json)
+- I already add several events that can be managed (Create/Read/Update/Delete) as json file ..
+- It is simple and straight-forward ,by using vscode it is possible to add thunder-client extension then import the collection and run-all.
+
+
 
