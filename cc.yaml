@@ -16,7 +16,6 @@ entidad:
   - src/models/User.js
   
   
-
 script:
   start_server: npm run start
   start_nodemon_server: npm run dev
