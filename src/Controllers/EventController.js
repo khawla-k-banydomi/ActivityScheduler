@@ -1,5 +1,4 @@
 const { createOne, deleteOne, getAll, getOne, modifyOne, resetOne } = require("../services/EventService");
-
 const getAllEvents = async (req, res, next) => {
     try {
         const events = await getAll();
