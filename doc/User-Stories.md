@@ -12,11 +12,11 @@ For more about the user stories you have to read carefully the following [Guide]
 - [Change an event reminder](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/11)
 - [Cancel an event reminder ](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/12)
 - [Retrieve the scheduled events during certain period](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/13)
-- [Create holidays set](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/14)
+<!--[Create holidays set](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/14)
 - [Modify holidays set](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/15)
 - [Eliminate a range of days from the holidays-set. ](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/16)
 - [Retrieve holidays during certain period.](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/17)
 - [Cancel hollidays reminder](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/18)
 - [Create empty classes related to the functionality of the application ](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/19) 
-- [Alert about the non-working days in advance](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/21)
+- [Alert about the non-working days in advance](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/21)-->
 
