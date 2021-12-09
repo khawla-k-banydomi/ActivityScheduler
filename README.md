@@ -25,7 +25,6 @@ You can look at [gulp.js](https://github.com/khawla-k-banydomi/ActivityScheduler
 *The other one for the server which is (start and restart the server).
 
 # Assertion Library:
-
 - There are numerous assertion libraries for Javascript, and the language itself has an assertion library (assert).
 There are two approaches: [BDD](https://www.agilealliance.org/glossary/bdd/) and [TDD](https://www.agilealliance.org/glossary/tdd/). and there are several differences between the two mentioned approaches [inside this link](https://www.pluralsight.com/blog/software-development/tdd-vs-bdd).
 Because we are using domain-driven design in conjunction with user stories, and the client is guiding the project's development, I believe the BDD approach is more appropriate.
