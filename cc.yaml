@@ -7,7 +7,7 @@ antes_de_instalar:
 instalar:
   - npm install
 test:
-  - test/Events_test.js
+  - test/eventsTest.js
  
 entidad:
   - src/models/Event.js
