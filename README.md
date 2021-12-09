@@ -6,6 +6,7 @@
 - To see the Second Milestone (hito-1) and To take a tour around milestones and issues regarding the application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS1_Specifying%20and%20planning%20the%20project.md). 🗒️
 - To see the complete description of the user stories please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/User-Stories.md). 📓
 - There are several unwanted issues that will be colsed and taged as removed.
+
 ---
 ### This is the Document for the Second-milestone which is the [test](https://jj.github.io/CC/documentos/proyecto/2021/2.Tests) milestone.
 - To sum up I have to add the following features:<br>
