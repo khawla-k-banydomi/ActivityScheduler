@@ -1,18 +1,21 @@
 
 # Main Repository For The Subject
 - To see How I configure my Github account Please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md). 🔧
-- To see the First Milestone (hito-0) and To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Description.md). 🗓️
+- To see the First Milestone (hito-0) and To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS0_Description.md). 🗓️
 - To see full descriptive document for the architecture and tools that I already and will use during the development check this [Document](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Architecture.md) 📔
 - To see the Second Milestone (hito-1) and To take a tour around milestones and issues regarding the application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS1_Specifying%20and%20planning%20the%20project.md). 🗒️
+- To see the Second Milestone (hito-2) and To take a tour around testing in the context of our application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS2_Testing.md). 🗒️
 - To see the complete description of the user stories please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/User-Stories.md). 📓
 - There are several unwanted issues that will be colsed and taged as removed.
 ---
-### This is the Document for the Second-milestone which is the [test](https://jj.github.io/CC/documentos/proyecto/2021/2.Tests) milestone.
+### This is the Document for the Third-milestone which is the [Docker](https://jj.github.io/CC/documentos/proyecto/2021/3.Docker) milestone.
 - To sum up I have to add the following features:<br>
-- Testing-Framework and Assertion-Library, and configure the [cc.yaml](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/cc.yaml) file correctly.
-- In this case I’ll be using Mocha which allows asynchronous testing using any assertion library, Chai as well is a Javascript Assertion Library; It performs # Dockerfile justification
+- docker-compose.yml
+- docker-compose.debug.yml
+- docker.yml
+- Dockerfile
 
-In this section I want to justify the image I have already chosen to carry out the Docker of our project. 
+### In this section I want to justify the image I have already chosen to carry out the Docker of our project. 
 I will also show the different Dockerfiles that have been tested and their structures.
 
 # Images:
