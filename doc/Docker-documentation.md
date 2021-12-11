@@ -91,6 +91,12 @@ Finally I decide to stay with Node-Alpine for the following reasons:
 - The resulting Dockerfile is simpler.
 - The image is developed and maintained by the Node.js Docker Team , who optimize and adapt the images so that the language works as well as possible.
 
+# FOR THE COMPARISON PURPOSE WE USE THE FOLLOWING SCREEN SHOT:
+
+<img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Docker-images.png" width="1000" height="700">
+
+
+
 
 
 # Best practices:
