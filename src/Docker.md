@@ -1,8 +1,9 @@
-This is the Document for 4th milestone;
-
+# Docker purposes and Description:
 Docker is used for Containerization, it packages an application and its dependencies together in a container. It allows our application to run smoothly irrespective of the changes in environment. 
 
-Docker file is run by typing docker-compose up
+# How it will Run:
+- Docker file is run by typing:
+> docker-compose up
 
 What it does:
 - it sets the node environment
