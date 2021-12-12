@@ -116,6 +116,9 @@ Finally I decide to stay with Node-Alpine for the following reasons:
 <img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Docker-images.png" width="1000" height="700">
 
 
+<img src="https://github.com/khawla1989/ActivityScheduler/blob/main/doc/Docker-%20image-restAPI.png" width="1000" height="700">
+
+
 
 # Prepration for Continuous Integration(CI):
 - For the requirement github actions is added which builds the docker image from Docker file as soon as code is pushed on github and sets the name according to the repo
