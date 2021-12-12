@@ -1,21 +1,12 @@
-lenguaje: node.js
+language: node_js
 node_js:
   - 7
-fichero_tareas: gulpfile.js
-antes_de_instalar: 
+test: test/eventsTest.js
+task-manager: gulp
+before_install:
   - npm i -g npm@7.24.2
-instalar:
+install:
   - npm install
-test:
-  - test/eventsTest.js
- 
-entidad:
-  - src/models/Event.js
-  - src/models/Schedule.js
-  - src/models/Timeline.js
-  - src/models/User.js
-  
-  
 script:
   start_server: npm run start
   start_nodemon_server: npm run dev

@@ -25,6 +25,13 @@ var eventSchema = new Schema({
         type: String,
         enum: ['urgent', 'not urgent', 'normal']
     },
+    repeat: {
+        type: Number,
+        default: 0
+    },
+    restore:{
+        type: Boolean
+    }
 });
 
 module.exports = mongoose.model('Event', eventSchema);

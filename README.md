@@ -117,6 +117,15 @@ Finally I decide to stay with Node-Alpine for the following reasons:
 
 
 
+# Prepration for Continuous Integration(CI):
+- For the requirement github actions is added which builds the docker image from Docker file as soon as code is pushed on github and sets the name according to the repo
+
+- When code is pushed it automatically runs 
+- It checks out the repo
+- builds it on ubuntu-latest
+- build the docker image from using Docker file present in the directory
+- 1.docker login 2. docker build 3. docker push
+- view the build on docker hub
 
 
 # Best practices:
@@ -129,7 +138,7 @@ Finally I decide to stay with Node-Alpine for the following reasons:
 - It is good to see further information inside [This link] (https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) .
 
 ---
-# [Test-milestone:Completed](https://github.com/khawla-k-banydomi/ActivityScheduler/milestone/5)
+# [Test-milestone:Completed](https://github.com/khawla-k-banydomi/ActivityScheduler/milestone/6)
 
 
 

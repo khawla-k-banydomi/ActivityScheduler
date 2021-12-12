@@ -9,6 +9,7 @@ var exec = require('child_process').exec
 gulp.task('task', function () {
   return console.log('Gulp Tasks are working!!');
 });
+
 // server task
 gulp.task('nodemon', function () {
   nodemon({
@@ -20,6 +21,7 @@ gulp.task('nodemon', function () {
       console.log('restart server');
     })
 });
+
 // run tests task
 gulp.task('test', function () {
   return gulp.src(['test/*.js'])
