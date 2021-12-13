@@ -22,7 +22,6 @@
 
 ### In this section I want to justify the image I have already chosen to carry out the Docker of our project. 
 I will also show the different Dockerfiles that have been tested and their structures.
-
 # Images:
 on the one hand There are several variations and possibilities to choose an image in our Dockerfile . All distributions contains images for Docker (Fedora, CentOS, Ubuntu ..)
 as well, each of them have different versions. side by side, we also find official images of the different programming languages(python,java) and especially for node js that are already 
