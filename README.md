@@ -10,7 +10,6 @@
 - To see the complete description of the user stories please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/User-Stories.md). 📓
 - There are several unwanted issues that will be colsed and taged as removed.
 ---
-
 ## [Why Docker?](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Docker.md)
 
 ### This is the Document for the Third-milestone which is the [Docker](https://jj.github.io/CC/documentos/proyecto/2021/3.Docker) milestone.
