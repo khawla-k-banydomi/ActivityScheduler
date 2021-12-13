@@ -6,8 +6,8 @@ var nodemon = require('gulp-nodemon');
 var exec = require('child_process').exec
 
 // test task
-gulp.task('task', function () {
-  return console.log('Gulp Tasks are working!!');
+gulp.task('test', async () => {
+  return await console.log('Gulp Tasks are working!!');
 });
 
 // server task
@@ -23,8 +23,8 @@ gulp.task('nodemon', function () {
 });
 
 // run tests task
-gulp.task('test', function () {
-  return gulp.src(['test/*.js'])
+gulp.task('task', async () => {
+  return await gulp.src(['test/*.js'])
     .pipe(mocha({
       compilers: babel
     }));
