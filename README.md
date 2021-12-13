@@ -19,6 +19,7 @@
 - docker.yml
 - Dockerfile
 
+
 ### In this section I want to justify the image I have already chosen to carry out the Docker of our project. 
 I will also show the different Dockerfiles that have been tested and their structures.
 # Images:
