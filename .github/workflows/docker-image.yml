@@ -6,14 +6,24 @@ on:
 
 jobs:
 
-  build:
+  test:
 
     runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps :
+      # Checks-out your repository under $ GITHUB_WORKSPACE, so your job can access it    
 
-    steps:
+   
     - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: |
-        echo "${{ secrets.DOCKER_HUB_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin docker.io
-        docker build . --file Dockerfile --tag docker.io/${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.DOCKER_HUB_REPOSITORY }}:$GITHUB_SHA
-        docker push docker.io/${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.DOCKER_HUB_REPOSITORY }}:$GITHUB_SHA
+    - name : check mount
+      run : ls -la
+      
+    - name : launch test
+      run : |
+          docker run -t -v `pwd`: / app / test khawla-k-banydomi / schedulerapimaster
+    - name : launch tests and task manager
+      run : |
+          docker run -t -v `pwd`: / app / test khawla-k-banydomi / schedulerapimaster sh -c" ls -la && pwd && whoami && gulp install && gulp build && gulp test "
+
+
+
