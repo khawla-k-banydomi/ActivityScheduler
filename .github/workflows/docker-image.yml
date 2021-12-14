@@ -24,10 +24,10 @@ jobs:
       
     - name : launch test
       run : |
-          docker run -t -v `pwd`: / app / test khawla-k-banydomi / schedulerapimaster
+          docker run -t -v `pwd`: /app/test khawla-k-banydomi/schedulerapimaster
     - name : launch tests and task manager
       run : |
-          docker run -t -v `pwd`: / app / test khawla-k-banydomi / schedulerapimaster sh -c" ls -la && pwd && whoami && gulp install && gulp build && gulp test "
+          docker run -t -v `pwd`: /app/test khawla-k-banydomi/schedulerapimaster sh -c" ls -la && pwd && whoami && gulp install && gulp build && gulp test "
 
 
 
