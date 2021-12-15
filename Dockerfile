@@ -5,8 +5,7 @@ COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
 # RUN npm install --production --silent && mv node_modules ../
 COPY . .
 EXPOSE 8080
+RUN npm install -g gulp-cli
 RUN chown -R node /usr/src/app
-RUN npm install -g gulp-cli && npm link gulp && npm install gulp-run
-RUN gulp install
 USER node
 RUN npm run test
