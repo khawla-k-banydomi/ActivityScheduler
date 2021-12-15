@@ -7,5 +7,6 @@ COPY . .
 EXPOSE 8080
 RUN chown -R node /usr/src/app
 RUN npm install -g gulp-cli && npm link gulp && npm install gulp-run
+RUN gulp install
 USER node
 RUN npm run test
