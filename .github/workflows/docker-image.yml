@@ -14,4 +14,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-        docker run -t -v `pwd`:/app/test khawla-k-banydomi/schedulerapi sh -c "ls -la && pwd && whoami && gulp install && gulp build && gulp test"
+        docker run -t -v `pwd`:/app/test khawla1989/schedulerapi sh -c "ls -la && pwd && whoami && gulp install && gulp build && gulp test"
