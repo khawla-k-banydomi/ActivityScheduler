@@ -12,6 +12,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: check mounting
+      run: ls -la
+
     - name: Build the Docker image
       run: |
         docker run -t -v `pwd`:/app/test khawla1989/schedulerapi sh -c "ls -la && pwd && whoami && gulp install && gulp build && gulp test"
