@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - 7
+  
 test: test/eventsTest.js
 task-manager: gulp
 before_install:
