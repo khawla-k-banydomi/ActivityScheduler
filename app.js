@@ -9,7 +9,7 @@ var usersRouter = require('./src/routes/users');
 var eventsRouter = require('./src/routes/events');
 
 // add DB
-const connection = mongoose.connect('mongodb://mongodb:27017/event-scheduler', { useNewUrlParser: true });
+const connection = mongoose.connect('mongodb://localhost:27017/event-scheduler', { useNewUrlParser: true });
 connection.then(
     (db) => {
     console.log("Successfully connected to DB!");
