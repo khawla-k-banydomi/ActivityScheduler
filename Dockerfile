@@ -1,5 +1,4 @@
-
- FROM node:6-onbuild
+ FROM node:12.2.0-alpine
  # create app directory
  RUN mkdir -p /usr/src/app
  WORKDIR /usr/src/app
