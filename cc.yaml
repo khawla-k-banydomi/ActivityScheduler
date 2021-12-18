@@ -8,7 +8,5 @@ before_install:
 install:
   - npm install
 script:
-  start_server: npm run start
-  start_nodemon_server: npm run dev
   run_test: npm run test
-  run_test_by_gulp: gulp test
+ 
