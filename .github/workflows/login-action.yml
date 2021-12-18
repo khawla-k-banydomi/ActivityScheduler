@@ -23,4 +23,4 @@ jobs:
       run: docker build . --file Dockerfile
       
     - name: Docker Push
-      run: docker push khawla1989/restfulapimaster
+      run: docker push khawla1989/schedulerapi
