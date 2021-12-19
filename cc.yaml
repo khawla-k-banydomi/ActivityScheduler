@@ -9,7 +9,7 @@ script:
   run_test: npm run test
 
 test:
-  - test/libros_test.js
+  - test/eventsTest.js
   - test/usuarios_test.js
   - test/prestamos_test.js
 
