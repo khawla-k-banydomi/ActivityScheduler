@@ -10,8 +10,6 @@ script:
 
 test:
   - test/eventsTest.js
-  - test/usuarios_test.js
-  - test/prestamos_test.js
 
 entidad:
  - src/models/Event.js
