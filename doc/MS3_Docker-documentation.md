@@ -1,9 +1,27 @@
-# Dockerfile Justification:
 
-In this section I want to justify the image I have already chosen to carry out the Docker of our project. 
+# Docker Justification
+
+- To see How I configure my Github account Please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md). 🔧
+- To see full descriptive document for the architecture and tools that I already and will use during the development check this [Document](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Architecture.md) 📔
+- To see the First Milestone (hito-0) and To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS0_Description.md). 🗓️
+
+- To see the Second Milestone (hito-1) and To take a tour around milestones and issues regarding the application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS1_Specifying%20and%20planning%20the%20project.md). 🗒️
+- To see the Third Milestone (hito-2) and To take a tour around testing in the context of our application please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/MS2_Testing.md). 🗒️
+- To see the complete description of the user stories please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/User-Stories.md). 📓
+- There are several unwanted issues that will be colsed and taged as removed.
+---
+
+## [Why Docker?](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Docker.md)
+
+### This is the Document for the Third-milestone which is the [Docker](https://jj.github.io/CC/documentos/proyecto/2021/3.Docker) milestone.
+- To sum up I have to add the following features:<br>
+- docker-compose.yml
+- docker-compose.debug.yml
+- docker.yml
+- Dockerfile
+
+### In this section I want to justify the image I have already chosen to carry out the Docker of our project. 
 I will also show the different Dockerfiles that have been tested and their structures.
-
-### More information about Docker:[Entrance for Docker](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Docker.md).
 
 # Images:
 on the one hand There are several variations and possibilities to choose an image in our Dockerfile . All distributions contains images for Docker (Fedora, CentOS, Ubuntu ..)
@@ -109,3 +127,9 @@ Finally I decide to stay with Node-Alpine for the following reasons:
 - We also make an effort to install only what is required for the test to run (gulp and a module of it).
 - It is also a good practice to separate the installation of dependencies from the rest of the actions that have been completed.
 - It is good to see further information inside [This link] (https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) .
+
+---
+# [Test-milestone:Completed](https://github.com/khawla-k-banydomi/ActivityScheduler/milestone/5)
+
+
+
