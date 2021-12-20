@@ -1,13 +1,11 @@
 {
-  "name": "scheduler-api-full",
+  "name": "scheduler4",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test":"gulp task",
-    "test:mocha": "mocha --timeout 10000",
-    "test:gulp": "gulp test"
+    "test": "mocha --timeout 20000 --exit"
   },
   "dependencies": {
     "babel-register": "^6.26.0",
