@@ -26,6 +26,13 @@ In the second section I will try several alternatives for Travis :
 Travis CI
 Once we authorize Travis to access our repository, we have to select it to activate with each push as well we have to select the free plan at the beginning.
 
-<img src="https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Docker-images.png" width="1000" height="700">
+<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20Access.png" width="1000" height="700">
+
+<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20after%20building.png" width="1000" height="700">
+
+
+<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20build.png" width="1000" height="700">
+
+
 
 
