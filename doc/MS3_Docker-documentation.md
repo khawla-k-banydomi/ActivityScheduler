@@ -126,7 +126,7 @@ Finally I decide to stay with Node-Alpine for the following reasons:
 - We only copy what is fair and necessary: the dependencies and tasks files.
 - We also make an effort to install only what is required for the test to run (gulp and a module of it).
 - It is also a good practice to separate the installation of dependencies from the rest of the actions that have been completed.
-- It is good to see further information inside [This link] (https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) .
+- It is good to see further information inside [This link](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) .
 
 ---
 # [Test-milestone:Completed](https://github.com/khawla-k-banydomi/ActivityScheduler/milestone/5)
