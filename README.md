@@ -29,7 +29,7 @@ Once we authorize Travis to access our repository, we have to select it to activ
 <img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20Access.png" width="1000" height="400">
 <img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20build.png" width="1000" height="400">
 
-<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20after%20building.png" width="1000" height="400">
+<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20after%20building.png" width="1000" height="500">
 
 
 
