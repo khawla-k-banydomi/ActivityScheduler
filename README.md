@@ -27,16 +27,18 @@ In the second section I will try several alternatives for Travis :
 Travis CI
 Once we authorize Travis to access our repository, we have to select it to activate with each push as well we have to select the free plan at the beginning.
 
-[First Version](https://github.com/khawla-k-banydomi/schedulerapi/blob/main/.travis.yml)
+[First Version](https://github.com/khawla-k-banydomi/schedulerapi/blob/main/.travis.yml) of the .Travis.yml file which contains only the test for the language.
 
 <img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20Access.png" width="1000" height="400">
 <img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20build.png" width="1000" height="400">
 
 <img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20after%20building.png" width="1000" height="500">
 
+[Final Version]
+I have to test several language versions so that I have to include the follwoing in the .travis file and see the results:
 
+<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20languages%20test.png" width="1000" height="500">
 
-
-
+<img src="https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Travis%20config%20file%20.png" width="400" height="900">
 
 
