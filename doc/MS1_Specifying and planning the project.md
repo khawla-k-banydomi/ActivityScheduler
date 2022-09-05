@@ -2,39 +2,35 @@
 
 
 # Main Repository For The Subject
-- To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/MS0_Description.md). 🗓️
-- To see How I configure my Github account Please Go [Here](https://github.com/khawla-k-banydomi/schedulerapi/blob/main/doc/Configuration.md). 🔧
+- To Take a tour around the Application That I want to develop please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Description.md). 🗓️
+- To see How I configure my Github account Please Go [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/blob/main/doc/Configuration.md). 🔧
 - This application was created to allow me to keep track of my personal work agenda online, rather than having to keep track of it on paper or in a notebook, in order to write down tasks to be completed or meetings at work to which they must contribute; thus, this application will be very useful in the future.
 
 
 
 # Milestones ⏲️
-Different milestones have been established [Here](https://github.com/khawla-k-banydomi/schedulerapi/milestones).
+Different milestones have been established [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/milestones).
 # Issues: ❗
-There are several issues I have already created. [Here](https://github.com/khawla-k-banydomi/schedulerapi/issues).
+There are several issues I have already created. [Here](https://github.com/khawla-k-banydomi/ActivityScheduler/issues?q=is%3Aissue+is%3Aclosed).
 # User Stories : 📚 (historia de usuario) 
 - I have created several user stories which are the following:<br>
-- [US1](https://github.com/khawla-k-banydomi/schedulerapi/issues/6)<br>
-- [US2](https://github.com/khawla-k-banydomi/schedulerapi/issues/7)<br>
-- [US3](https://github.com/khawla-k-banydomi/schedulerapi/issues/8)<br>
-- [US4](https://github.com/khawla-k-banydomi/schedulerapi/issues/9)<br>
-- [US5](https://github.com/khawla-k-banydomi/schedulerapi/issues/10)<br>
-- [US6](https://github.com/khawla-k-banydomi/schedulerapi/issues/11)<br>
-- [US7](https://github.com/khawla-k-banydomi/schedulerapi/issues/12)<br>
-- [US8](https://github.com/khawla-k-banydomi/schedulerapi/issues/13)<br>
-- [US9](https://github.com/khawla-k-banydomi/schedulerapi/issues/14)<br>
-- [US10](https://github.com/khawla-k-banydomi/schedulerapi/issues/15)<br>
-- [US11](https://github.com/khawla-k-banydomi/schedulerapi/issues/16)<br>
-- [US12](https://github.com/khawla-k-banydomi/schedulerapi/issues/17)<br>
-- [US13](https://github.com/khawla-k-banydomi/schedulerapi/issues/18)<br>
-- [US14](https://github.com/khawla-k-banydomi/schedulerapi/issues/19)<br>
+- [US1](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/4)<br>
+- [US2](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/5)<br>
+- [US3](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/6)<br>
+- [US4](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/7)<br>
+- [US5](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/8)<br>
+- [US6](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/9)<br>
+- [US7](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/10)<br>
+- [US8](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/11)<br>
+- [US9](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/12)<br>
+- [US10](https://github.com/khawla-k-banydomi/ActivityScheduler/issues/13).
 
 It is important to notice that user story shouldn't be closed untill it is well-implemented in the context of the application functionality.
 [Here](https://gist.github.com/seanh/8a5b7b36d5c4fdfcfbd3b42506296968) there are several important things regarding the uer-stories.
 
 
 # Main classes and methods :
-These are the main [Classes and CRUD (Create Read Update Delete) operations](https://github.com/khawla-k-banydomi/schedulerapi/tree/main/src/controllers) 
+The main [Classes](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/models) as well as [CRUD operations](https://github.com/khawla-k-banydomi/ActivityScheduler/tree/main/src/Controllers)
 
 It shows the interface of the class (functions with arguments that will have the appropriate type and number, but without any business logic or functionality).
 
