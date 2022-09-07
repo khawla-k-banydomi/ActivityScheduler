@@ -3,18 +3,24 @@ var gulp = require('gulp'),
   babel = require('babel-register');
 var run = require('gulp-run');
 var nodemon = require('gulp-nodemon');
-var exec = require('child_process').exec;
+var exec = require('child_process').exec
 
-gulp.task('install', function () {
-  return run('npm install --also=dev || echo already installed').exec();
+gulp.task('install', function(){
+    return run('npm install --also=dev || echo already installed').exec();
 });
 
-gulp.task('install-production', function () {
-  return run('npm install').exec();
+gulp.task('install-production', function(){
+    return run('npm install').exec();
 });
 
-gulp.task('build', function () {
-  return run('echo build success').exec();
+
+gulp.task('build', function(){
+    return run('echo build success').exec();
+});
+
+// test task
+gulp.task('test', async () => {
+  return await console.log('Gulp Tasks are working!!');
 });
 
 // server task
@@ -22,21 +28,21 @@ gulp.task('nodemon', function () {
   nodemon({
     script: 'app.js',
     ext: 'js',
-    ignore: ['dist /'],
-  }).on('restart', function () {
-    console.log('restart server');
-  });
+    ignore: ['dist /']
+  })
+    .on('restart', function () {
+      console.log('restart server');
+    })
 });
 
 // run tests task
-gulp.task('test', async () => {
-  return await gulp.src(['test/*.js']).pipe(
-    mocha({
-      compilers: babel,
-      exit: true,
-    })
-  );
+gulp.task('task', async () => {
+  return await gulp.src(['test/*.js'])
+    .pipe(mocha({
+      compilers: babel
+    }));
 });
+
 
 // watch server
 gulp.task('watch', function () {
@@ -52,4 +58,4 @@ gulp.task('start', function (cb) {
     console.log(stderr);
     cb(err);
   });
-});
+})

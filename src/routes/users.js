@@ -1,11 +1,9 @@
-const express = require('express');
-const UserController = require('../controllers/UserController');
-const router = express.Router();
+var express = require('express');
+var router = express.Router();
 
-const userController = new UserController();
 
-router.get('/:user', userController.getOneUser);
-
-router.post('/', userController.register);
-
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
+});
 module.exports = router;

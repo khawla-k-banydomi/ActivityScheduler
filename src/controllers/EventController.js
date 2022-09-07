@@ -1,115 +1,66 @@
-const EventService = require('../services/EventService');
-const mongoIdRegex = /^(?=[a-f\d]{24}$)(\d+[a-f]|[a-f]+\d)/i;
+const { createOne, deleteOne, getAll, getOne, modifyOne, resetOne } = require("../services/EventService");
 
-class EventController {
-  eventService = new EventService();
-
-  // As a user I can list my events, so that I can know their details
-  getUserEvents = async (req, res) => {
+const getAllEvents = async (req, res, next) => {
     try {
-      const user = req.params.user;
-
-      if (!user || user === 'null') return res.sendStatus(401);
-
-      const events = await this.eventService.getAll(user);
-      if (!isNaN(events)) return res.sendStatus(events);
-
-      return res.send({ data: events, message: 'Fetched successfully' });
-    } catch (e) {
-      return res.sendStatus(500);
+        const events = await getAll();
+        res.send({ data: events, message: `Successfully fetched all events!` });
+    } catch (err) {
+        next(err);
     }
-  };
-
-  // As a user I can fetch a single event, so that I can know its details
-  getUserEvent = async (req, res) => {
-    try {
-      const id = req.params.id,
-        user = req.params.user;
-
-      if (!mongoIdRegex.test(id)) return res.sendStatus(400);
-      if (!user || user === 'null') return res.sendStatus(401);
-
-      const event = await this.eventService.getOne(id, user);
-      if (!isNaN(event)) return res.sendStatus(event);
-
-      return res.send({ data: event, message: 'Fetched successfully' });
-    } catch (e) {
-      return res.sendStatus(500);
-    }
-  };
-
-  // As a user I can create a new event, so that I can be notified with it
-  createEvent = async (req, res) => {
-    try {
-      const user = req.params.user,
-        eventObj = req.body;
-
-      if (!user || user === 'null') return res.sendStatus(401);
-
-      const event = await this.eventService.createOne(user, eventObj);
-      if (!isNaN(event)) return res.sendStatus(event);
-
-      res.send({ data: event, message: 'Created successfully' });
-    } catch (e) {
-      return res.sendStatus(500);
-    }
-  };
-
-  // As a user I can list my events, so that I can manage them
-  updateEvent = async (req, res) => {
-    try {
-      const id = req.params.id,
-        user = req.params.user;
-
-      if (!mongoIdRegex.test(id)) return res.sendStatus(400);
-      if (!user || user === 'null') return res.sendStatus(401);
-
-      const updatedObj = req.body;
-      const event = await this.eventService.updateOne(id, user, updatedObj);
-      if (!isNaN(event)) return res.sendStatus(event);
-
-      res.send({ data: event, message: 'Updated successfully' });
-    } catch (e) {
-      return res.sendStatus(500);
-    }
-  };
-
-  // As a user I can restore a deleted event, so that I can reschedule it
-  restoreEvent = async (req, res) => {
-    try {
-      const id = req.params.id,
-        user = req.params.user;
-
-      if (!mongoIdRegex.test(id)) return res.sendStatus(400);
-      if (!user || user === 'null') return res.sendStatus(401);
-
-      const updatedObj = req.body;
-      const event = await this.eventService.restoreOne(id, user, updatedObj);
-      if (!isNaN(event)) return res.sendStatus(event);
-
-      res.send({ data: event, message: 'Restored successfully' });
-    } catch (e) {
-      return res.sendStatus(500);
-    }
-  };
-
-  // As a user I can delete events, so that I can manage them
-  deleteEvent = async (req, res) => {
-    try {
-      const id = req.params.id,
-        user = req.params.user;
-
-      if (!mongoIdRegex.test(id)) return res.sendStatus(400);
-      if (!user || user === 'null') return res.sendStatus(401);
-
-      const event = await this.eventService.deleteOne(id, user);
-      if (!isNaN(event)) return res.sendStatus(event);
-
-      res.send({ data: event, message: 'Deleted successfully' });
-    } catch (e) {
-      return res.sendStatus(500);
-    }
-  };
 }
-
-module.exports = EventController;
+const getOneEvent = async (req, res, next) => {
+    try {
+        const id = req.params.id;
+        const event = await getOne(id);
+        res.send({ data: event, message: `Successfully fetched the event ${id}` });
+    }
+    catch (err) {
+        next(err);
+    }
+}
+const createEvent = async (req, res, next) => {
+    try {
+        const eventObj = req.body;
+        const event = await createOne(eventObj);
+        res.send({ data: event, message: `Successfully created event ${event._id} !` });
+    } catch (err) {
+        next(err)
+    }
+}
+const modifyEvent = async (req, res, next) => {
+    try {
+        const id = req.params.id;
+        const updatedObj = req.body;
+        const event = await modifyOne(id, updatedObj);
+        res.send({ data: event, message: `Successfully updated event ${event._id} !` });
+    } catch (err) {
+        next(err);
+    }
+}
+const deleteEvent = async (req, res, next) => {
+    try {
+        const id = req.params.id;
+        await deleteOne(id);
+        res.send({ message: `Successfully deleted event!` });
+    } catch (err) {
+        next(err);
+    }
+}
+const resetEvent = async (req, res, next) => {
+    try {
+        const id = req.params.id;
+        const updatedObj = req.body;
+        const event = await resetOne(id, updatedObj);
+        res.send({ data: event, message: `Successfully updated event ${event._id} !` });
+    } catch (err) {
+        next(err);
+    }
+}
+module.exports ={
+    getAllEvents,
+    getOneEvent,
+    createEvent,
+    modifyEvent,
+    deleteEvent,
+    resetEvent
+}

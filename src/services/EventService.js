@@ -1,78 +1,39 @@
+const { NotFound } = require('http-errors');
 const Event = require('../models/Event');
 
-class EventService {
-  getAll = async (user) => {
-    if (!user) return 401;
-    const events = await Event.find({ user });
+const getAll = async () => {
+    const events = await Event.find({}).exec();
+    if (!events) throw new NotFound(`No events found!`);
     return events;
-  };
-
-  getOne = async (id, user) => {
-    if (!user) return 401;
-    const event = await Event.findOne({ _id: id, user });
-    if (!event) return 404;
-    return event;
-  };
-
-  createOne = async (user, eventObj) => {
-    if (!user) return 401;
-    if (eventObj.startTime < new Date()) {
-      return 400;
-    }
-    if (eventObj.startTime > eventObj.endTime) {
-      return 400;
-    }
-    if (eventObj.reminderTime > eventObj.startTime) {
-      return 400;
-    }
-    const event = await Event.create({ user, ...eventObj });
-    return event;
-  };
-
-  updateOne = async (id, user, updatedObj) => {
-    if (!user) return 401;
-    const event = await Event.findOne({ _id: id, user });
-    if (!event) 404;
-    if ((updatedObj.startTime || event.startTime) < new Date()) {
-      return 400;
-    }
-    if ((updatedObj.startTime || event.startTime) > (updatedObj.endTime || event.endTime)) {
-      return 400;
-    }
-    if (updatedObj.reminderTime > (updatedObj.startTime || event.startTime)) {
-      return 400;
-    }
-    const newEvent = await Event.findOneAndUpdate(
-      { _id: id, user },
-      { $set: updatedObj },
-      { new: true }
-    );
-    return newEvent;
-  };
-
-  restoreOne = async (id, user) => {
-    if (!user) return 401;
-    const event = await Event.findOne({ _id: id, user });
-    if (!event) 404;
-    const newEvent = await Event.findOneAndUpdate(
-      { _id: id, user },
-      { $set: { isDeleted: false } },
-      { new: true }
-    );
-    return newEvent;
-  };
-
-  deleteOne = async (id, user) => {
-    if (!user) return 401;
-    const event = await Event.findOne({ _id: id, user });
-    if (!event) 404;
-    const newEvent = await Event.findOneAndUpdate(
-      { _id: id, user },
-      { $set: { isDeleted: true } },
-      { new: true }
-    );
-    return newEvent;
-  };
 }
-
-module.exports = EventService;
+const getOne = async (id) => {
+    const event = await Event.findById(id).exec();
+    if (!event) throw new NotFound(`No event found with id ${id} !`);
+    return event;
+}
+const createOne = async (eventObj) => {
+    const event = await Event.create(eventObj);
+    return event;
+}
+const modifyOne = async (id, updatedObj) => {
+    const event = await Event.findByIdAndUpdate(id, updatedObj)
+    if (!event) throw new NotFound(`No event found with id ${id} !`);
+    return event;
+}
+const deleteOne = async (id) => {
+    const event=await Event.findByIdAndDelete(id)
+    if (!event) throw new NotFound(`No event found with id ${id} !`);
+}
+const resetOne = async (id, updatedObj) => {
+    const event = await Event.findByIdAndUpdate(id, updatedObj)
+    if (!event) throw new NotFound(`No event found with id ${id} !`);
+    return event;
+}
+module.exports={
+    getAll,
+    getOne,
+    createOne,
+    modifyOne,
+    deleteOne,
+    resetOne
+}
